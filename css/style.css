@@ -1,4 +1,4 @@
-.nav{background-color: rgb(59, 58, 58); text-align: center;padding: 15px; 
+.nav{background-color: rgba(59, 58, 58, 0.9); text-align: center;padding: 15px; 
      float: left;width: 100%;margin-top: 0;position: fixed;z-index:9999}
 .nav  .nav-item{padding-left: 60px;color: rgb(219, 215, 215);text-decoration: none;}
 .nav .container  .nav-item:hover{color: white;}
@@ -33,5 +33,6 @@
 .usaflag{border-radius: 50%;width: 17px;margin-left: 65px;}
 .pdtop{margin-top: -8px;margin-bottom: 6px;}
 .col-md-6{margin-right: -1px;}
+.imglink{text-decoration: none;}
 
 /* body{overflow-x: hidden;} */
