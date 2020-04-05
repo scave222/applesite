@@ -43,7 +43,7 @@
           height: 500px;}
 
 .backgroundimages{ 
-                  margin: 20px; 
+                  margin-top: 20px; 
                   height: 500px;
                   max-width: 100%;
                   background-size: cover;
@@ -65,7 +65,7 @@
 
 .usaflag{border-radius: 50%;
          width: 17px;
-         margin-left: 65px;}
+         margin-left: 255px;}
 
 .pdtop{margin-top: -8px;
        margin-bottom: 6px;}
@@ -73,16 +73,18 @@
 .col-md-6{margin-right: -1px;}
 .imglink{text-decoration: none;}
 
-@media (min-width: 500px) {
-.pt-8{padding-top: 105px;}
+@media (max-width: 600px) {
+.pt-8{padding-top: 155px;}
 }
 
-@media (max-width: 500px) {
-    .usaflag{margin-left:0;}
-    }
-@media (max-width: 500px) {
-    .col-sm-12{margin-left:0;}
+@media (max-width:500px)
+{
+    .pt-8 div{padding-left: 0;
+        padding-right: 0;}
+}
+
+@media (max-width: 300px) {
+    .pt-8{padding-top: 255px;}
     }
     
-
 /* body{overflow-x: hidden;} */
