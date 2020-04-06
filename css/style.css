@@ -1,6 +1,6 @@
 .nav{background-color: rgba(59, 58, 58, 0.9);
      text-align: center;
-     padding: 15px; 
+     padding: 8px; 
      float: left;
      width: 100%;
      margin-top: 0;
@@ -14,7 +14,8 @@
 .nav .container  .nav-item:hover{color: white;}
 
 
-.pt-8{padding-top: 80px;}
+.pt-8{padding-top: 60px;font-size:18px ;}
+.blue{color:rgb(34, 159, 241)}
 
 .pt-8 div{padding-left: 100px;
           padding-right: 100px;}
@@ -23,24 +24,26 @@
            height: 600px;
            background-size: cover;}
 
-.backgroundimage1{background-image: url("../images/111phone.jpg");}
-.backgroundimage2{background-image: url("../images/3iphonepro.jpg");}
-.backgroundimage3{background-image: url("../images/7ipadpro.jpg");}
+.backgroundimage1{background-image: url("../images/111phone.jpg"); cursor: pointer;}
+.backgroundimage2{background-image: url("../images/3iphonepro.jpg"); cursor: pointer;}
+.backgroundimage3{background-image: url("../images/7ipadpro.jpg"); cursor: pointer;}
 .bodyimage .trade{color:gray;}
 .white{color: white;}
 .watch{color: white; font-size: 22px;}
 .brown{color:rgb(184, 70, 70)}
-.backgroundimage4{background-image: url("../images/1covid19.jpg");}
-.backgroundimage5{background-image: url("../images/1watch.jpg");}
-.backgroundimage6{background-image: url("../images/1ipad.jpg");}
-.backgroundimage7{background-image: url("../images/8iphone11.jpg");}
-.backgroundimage8{background-image: url("../images/11iphone.jpg");}
-.backgroundimage9{background-image: url("../images/1tv.jpg");}
+.backgroundimage4{background-image: url("../images/1covid19.jpg"); cursor: pointer;}
+.backgroundimage5{background-image: url("../images/1watch.jpg"); cursor: pointer;}
+.backgroundimage6{background-image: url("../images/1ipad.jpg"); cursor: pointer;}
+.backgroundimage7{background-image: url("../images/8iphone11.jpg"); cursor: pointer;}
+.backgroundimage8{background-image: url("../images/11iphone.jpg"); cursor: pointer;}
+.backgroundimage9{background-image: url("../images/1tv.jpg"); cursor: pointer;}
 
 .card-img{margin: 50px;
           width: 100%;
           background-size: cover;
           height: 500px;}
+
+
 
 .backgroundimages{ 
                   margin-top: 20px; 
@@ -74,7 +77,7 @@
 .imglink{text-decoration: none;}
 
 @media (max-width: 600px) {
-.pt-8{padding-top: 155px;}
+.pt-8{padding-top: 100px;}
 }
 
 @media (max-width:500px)
@@ -84,7 +87,9 @@
 }
 
 @media (max-width: 300px) {
-    .pt-8{padding-top: 255px;}
+    .pt-8{padding-top: 250px;}
     }
+
+
     
 /* body{overflow-x: hidden;} */
