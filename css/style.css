@@ -24,8 +24,8 @@
            height: 600px;
            background-size: cover;}
 
-.backgroundimage1{background-image: url("../images/111phone.jpg"); cursor: pointer;}
-.backgroundimage2{background-image: url("../images/3iphonepro.jpg"); cursor: pointer;}
+.backgroundimage1{background-image: url("../images/3iphonepro.jpg"); cursor: pointer;}
+.backgroundimage2{background-image: url("../images/111phone.jpg"); cursor: pointer;}
 .backgroundimage3{background-image: url("../images/7ipadpro.jpg"); cursor: pointer;}
 .bodyimage .trade{color:gray;}
 .white{color: white;}
